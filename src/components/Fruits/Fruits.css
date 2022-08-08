@@ -1,0 +1,53 @@
+.fruits{
+  margin: 20px auto;
+  width: 80%;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: orange;
+  border-radius: 5px;
+
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 40px 20px;
+  background-color: white;
+}
+
+.product-name{
+  text-transform: uppercase;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.product-add-button{
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 15px auto;
+
+
+}
+
+.product-add-button:hover{
+  background-color: rgb(211, 211, 40);
+}
+
+.product-add-button:active{
+  transform: translateY(2px);
+}
